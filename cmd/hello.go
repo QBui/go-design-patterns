@@ -19,4 +19,5 @@ func main() {
 	fmt.Printf("Compiler: %s\n", runtime.Compiler)
 	hostname, _ := os.Hostname()
 	fmt.Printf("Hostname: %s\n", hostname)
+	// This is a test
 }
