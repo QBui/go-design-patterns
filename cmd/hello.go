@@ -13,6 +13,10 @@ func main() {
 	fmt.Printf("Num Goroutine: %d\n", runtime.NumGoroutine())
 	fmt.Printf("Num CPU: %d\n", runtime.NumCPU())
 	fmt.Printf("Num Cgo Call: %d\n", runtime.NumCgoCall())
+	fmt.Printf("GOROOT: %s\n", runtime.GOROOT())
+	fmt.Printf("GOOS: %s\n", runtime.GOOS)
+	fmt.Printf("GOARCH: %s\n", runtime.GOARCH)
+	fmt.Printf("Compiler: %s\n", runtime.Compiler)
 	hostname, _ := os.Hostname()
 	fmt.Printf("Hostname: %s\n", hostname)
 }
